@@ -12,14 +12,14 @@ class ExportDownloader {
 	public function getFile(string $url): string {
 		$zipFile = __DIR__ . '/export.zip';
 		$client = new Client();
-		$client->request('GET', $url, ['sink' => __DIR__ . '/export.zip']);
+		$client->request('GET', $url, ['sink' => $zipFile]);
 
 		$zip = new ZipArchive();
 		$zip->open($zipFile);
 		$zip->extractTo(__DIR__);
 		$zip->close();
 
-		@unlink(__DIR__ . '/export.zip');
+		@unlink($zipFile);
 		return __DIR__ . '/export_full.xml';
 	}
 

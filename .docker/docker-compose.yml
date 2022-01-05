@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  php:
+    build: images/php
+    volumes:
+      - ..:/usr/app
+      - ./images/php/php.ini:/usr/local/etc/php/conf.d/php.ini
+    working_dir: /usr/app

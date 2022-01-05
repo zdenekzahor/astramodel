@@ -8,6 +8,10 @@ RUN \
     curl -fsSL https://pecl.php.net/get/xdebug | tar xvz -C "/usr/src/php/ext/xdebug" --strip 1 && \
     docker-php-ext-install xdebug && \
     rm -rf /usr/src/php/ext/xdebug && \
-    rm $PHP_INI_DIR/conf.d/docker-php-ext-xdebug.ini
+    rm $PHP_INI_DIR/conf.d/docker-php-ext-xdebug.ini && \
+    # Zip extension
+    apk add --no-cache libzip-dev && \
+    docker-php-ext-configure zip && \
+    docker-php-ext-install zip
 
 COPY --from=composer:2.1 /usr/bin/composer /usr/bin/composer

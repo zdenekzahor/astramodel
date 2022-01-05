@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export_full date="2022-01-05 07:01:21" version="20160107">
+	<items>
+		<item code="TEST-1" image="https://" imageDate="2014-04-08" name="Item 1" brandId="1" brand="TEST-1" czk="89.00" eur="3.50"
+			  czksmap="89.00" eursmap="3.50" hasPrice="true" created="2014-01-09" changed="" new="false" stock="true" date=""
+			  stock2="true" date2="" stock3="high" date3="" discontinued="false"
+			  weight="0.001" length="0.001" width="0.001" height="1.000" recycling_fee=""
+		>
+			<descriptions>
+				<description title="Desc title" order="1">&lt;p&gt;Test 1&amp;nbsp;g&lt;/p&gt;</description>
+			</descriptions>
+			<parts>
+				<part categoryId="1" name="Part category 1" order="1">
+					<item code="TEST-2" name="Item 2"/>
+					<item code="TEST-5" name="Item 5"/>
+				</part>
+				<part categoryId="2" name="Part category 2" order="2">
+					<item code="TEST-6" name="Item 6"/>
+					<item code="TEST-7" name="Item 7"/>
+				</part>
+			</parts>
+		</item>
+		<item code="TEST-2" image="https://" imageDate="2014-04-08" name="Item 2" brandId="1" brand="TEST-1" czk="89.00" eur="3.50"
+			  czksmap="89.00" eursmap="3.50" hasPrice="true" created="2014-01-09" changed="" new="false" stock="true" date=""
+			  stock2="true" date2="" stock3="high" date3="" discontinued="false"
+			  weight="0.001" length="0.001" width="0.001" height="1.000" recycling_fee=""
+		>
+			<descriptions>
+				<description title="Desc title" order="1">&lt;p&gt;Test 2&amp;nbsp;g&lt;/p&gt;</description>
+			</descriptions>
+		</item>
+		<item code="TEST-3" image="https://" imageDate="2014-04-08" name="Item 3" brandId="1" brand="TEST-1" czk="89.00" eur="3.50"
+			  czksmap="89.00" eursmap="3.50" hasPrice="true" created="2014-01-09" changed="" new="false" stock="true" date=""
+			  stock2="true" date2="" stock3="high" date3="" discontinued="false"
+			  weight="0.001" length="0.001" width="0.001" height="1.000" recycling_fee=""
+		>
+			<descriptions>
+				<description title="Desc title" order="1">&lt;p&gt;Test 3&amp;nbsp;g&lt;/p&gt;</description>
+			</descriptions>
+			<parts>
+				<part categoryId="2" name="Part category 2" order="1">
+					<item code="TEST-5" name="Item 5"/>
+					<item code="TEST-6" name="Item 6"/>
+				</part>
+				<part categoryId="3" name="Part category 3" order="2">
+					<item code="TEST-5" name="Item 5"/>
+					<item code="TEST-6" name="Item 6"/>
+				</part>
+			</parts>
+		</item>
+		<item code="TEST-4" image="https://" imageDate="2014-04-08" name="Item 4" brandId="1" brand="TEST-1" czk="89.00" eur="3.50"
+			  czksmap="89.00" eursmap="3.50" hasPrice="true" created="2014-01-09" changed="" new="false" stock="true" date=""
+			  stock2="true" date2="" stock3="high" date3="" discontinued="false"
+			  weight="0.001" length="0.001" width="0.001" height="1.000" recycling_fee=""
+		>
+			<descriptions>
+				<description title="Desc title" order="1">&lt;p&gt;Test 4&amp;nbsp;g&lt;/p&gt;</description>
+			</descriptions>
+			<parts>
+				<part categoryId="1" name="Part category 1" order="1">
+					<item code="TEST-5" name="Item 5"/>
+				</part>
+			</parts>
+		</item>
+		<item code="TEST-5" image="https://" imageDate="2014-04-08" name="Item 5" brandId="1" brand="TEST-1" czk="89.00" eur="3.50"
+			  czksmap="89.00" eursmap="3.50" hasPrice="true" created="2014-01-09" changed="" new="false" stock="true" date=""
+			  stock2="true" date2="" stock3="high" date3="" discontinued="false"
+			  weight="0.001" length="0.001" width="0.001" height="1.000" recycling_fee=""
+		>
+			<descriptions>
+				<description title="Desc title" order="1">&lt;p&gt;Test 5&amp;nbsp;g&lt;/p&gt;</description>
+			</descriptions>
+		</item>
+		<item code="TEST-6" image="https://" imageDate="2014-04-08" name="Item 6" brandId="1" brand="TEST-1" czk="89.00" eur="3.50"
+			  czksmap="89.00" eursmap="3.50" hasPrice="true" created="2014-01-09" changed="" new="false" stock="true" date=""
+			  stock2="true" date2="" stock3="high" date3="" discontinued="false"
+			  weight="0.001" length="0.001" width="0.001" height="1.000" recycling_fee=""
+		>
+			<descriptions>
+				<description title="Desc title" order="1">&lt;p&gt;Test 6&amp;nbsp;g&lt;/p&gt;</description>
+			</descriptions>
+		</item>
+		<item code="TEST-7" image="https://" imageDate="2014-04-08" name="Item 7" brandId="1" brand="TEST-1" czk="89.00" eur="3.50"
+			  czksmap="89.00" eursmap="3.50" hasPrice="true" created="2014-01-09" changed="" new="false" stock="true" date=""
+			  stock2="true" date2="" stock3="high" date3="" discontinued="false"
+			  weight="0.001" length="0.001" width="0.001" height="1.000" recycling_fee=""
+		>
+			<descriptions>
+				<description title="Desc title" order="1">&lt;p&gt;Test 7&amp;nbsp;g&lt;/p&gt;</description>
+			</descriptions>
+		</item>
+	</items>
+	<categories>
+	</categories>
+	<categoriesWithParts>
+	</categoriesWithParts>
+	<categoriesNew>
+	</categoriesNew>
+	<brands>
+	</brands>
+	<itemSpecs>
+	</itemSpecs>
+	<partCategories>
+		<partCategory id="1" name="Part category 1"/>
+		<partCategory id="2" name="Part category 2"/>
+		<partCategory id="3" name="Part category 3"/>
+	</partCategories>
+	<discontinuedItems>
+	</discontinuedItems>
+</export_full>

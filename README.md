@@ -1,6 +1,6 @@
 # zdenekzahor/astramodel
 
-🏎  PHP connnector for Astramodel products
+🏎  PHP connector for Astramodel products
 
 ## Setup
 

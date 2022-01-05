@@ -10,7 +10,7 @@ use ZdenekZahor\Astramodel\Service\ExportParser;
 require_once __DIR__ . '/vendor/autoload.php';
 
 $application = new Application();
-$application->setName('🏎  PHP connnector for Astramodel products');
+$application->setName('🏎  PHP connector for Astramodel products');
 $application->setVersion('1.0.1');
 
 $productCommand = new ProductCommand(
